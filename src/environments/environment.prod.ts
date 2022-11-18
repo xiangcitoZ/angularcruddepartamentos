@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  urlApiDepartamentos: "https://apicruddepartamentoscore.azurewebsites.net/"
+
 };

@@ -1,0 +1,18 @@
+<form #createForm="ngForm">
+    <label>Id: </label>
+    <input type="number" class="form-control"
+        name="cajanumero" #cajanumero /><br/>
+
+    
+    <label>Nombre: </label>
+    <input type="text" class="form-control"
+        name="cajanombre" #cajanombre /><br/>
+
+    <label>Localidad: </label>
+    <input type="text" class="form-control"
+        name="cajalocalidad" #cajalocalidad /><br/>
+
+    <button class="btn btn-info" (click)="insertarDepartamento()">
+        Create
+    </button>
+</form>
